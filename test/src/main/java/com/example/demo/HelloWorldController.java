@@ -1,0 +1,26 @@
+package com.example.demo;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.slf4j.Logger;  
+import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@RestController
+public class HelloWorldController {
+	public static Logger logger=LoggerFactory.getLogger(HelloWorldController.class);	
+    @RequestMapping("/hello")
+    public String index() {
+		logger.debug("访问hello");
+        return "Hello World";
+    }
+    
+	@RequestMapping("/hello/{name}")
+	public String helloName(@PathVariable String name){
+		logger.debug("访问helloName,Name={}",name);
+		return "Hello "+name;
+	}
+}
