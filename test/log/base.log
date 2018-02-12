@@ -19,3 +19,15 @@
 2018-02-09 14:52:41,907 DEBUG (HelloWorldController.java:17)- 访问hello
 2018-02-09 14:52:42,041 DEBUG (HelloWorldController.java:17)- 访问hello
 2018-02-09 14:52:42,175 DEBUG (HelloWorldController.java:17)- 访问hello
+2018-02-09 16:13:21,124 INFO (StartupInfoLogger.java:48)- Starting TestApplication on zjdeMacBook-Air.local with PID 4158 (/Users/zj/Documents/company_code/sts-bundle/project/test/target/classes started by zj in /Users/zj/Documents/company_code/sts-bundle/project/test)
+2018-02-09 16:13:21,127 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-09 16:13:21,128 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-02-09 16:13:31,011 INFO (StartupInfoLogger.java:57)- Started TestApplication in 10.87 seconds (JVM running for 14.657)
+2018-02-09 16:13:32,520 DEBUG (HelloWorldController.java:23)- 访问helloName,Name=test
+2018-02-09 16:14:21,610 INFO (StartupInfoLogger.java:48)- Starting TestApplication on zjdeMacBook-Air.local with PID 4191 (/Users/zj/Documents/company_code/sts-bundle/project/test/target/classes started by zj in /Users/zj/Documents/company_code/sts-bundle/project/test)
+2018-02-09 16:14:21,610 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-09 16:14:21,611 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-02-09 16:14:26,922 INFO (StartupInfoLogger.java:57)- Started TestApplication in 5.726 seconds (JVM running for 6.614)
+2018-02-09 16:14:29,998 DEBUG (HelloWorldController.java:23)- 访问helloName,Name=test
+2018-02-09 16:14:30,955 DEBUG (HelloWorldController.java:23)- 访问helloName,Name=test
+2018-02-09 16:14:35,078 DEBUG (HelloWorldController.java:23)- 访问helloName,Name=testllll
